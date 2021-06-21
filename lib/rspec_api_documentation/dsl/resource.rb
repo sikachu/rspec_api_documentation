@@ -1,3 +1,5 @@
+require "active_support/core_ext/array/extract_options"
+
 module RspecApiDocumentation::DSL
   # DSL methods available at the example group level
   module Resource

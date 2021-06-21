@@ -2,6 +2,7 @@ require 'rspec/core/formatters/base_formatter'
 require 'rack/utils'
 require 'rack/test/utils'
 require 'rspec_api_documentation/dsl/endpoint/params'
+require 'active_support/core_ext/hash/keys'
 
 module RspecApiDocumentation::DSL
   # DSL methods available inside the RSpec example.

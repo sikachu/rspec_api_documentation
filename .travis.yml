@@ -10,6 +10,3 @@ gemfile:
   - Gemfile
 script:
   - bundle exec rake
-branches:
-  only:
-    - master
